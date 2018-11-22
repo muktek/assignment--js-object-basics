@@ -52,7 +52,7 @@ var moreNamesList = makeFullNamesList(moreCustomersList)
 console.log('TEST-1');
 
 console.assert(Array.isArray(fullNamesList1) === true)
-console.assert(typeof fullNamesList[0] === 'string')
+console.assert(typeof fullNamesList1[0] === 'string')
 
 console.assert(Array.isArray(moreNamesList) === true)
 console.assert(typeof moreNamesList[1] === 'string')
